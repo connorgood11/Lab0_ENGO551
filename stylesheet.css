@@ -1,0 +1,63 @@
+h1 {
+    color: blue;
+    text-align: center;
+}
+.easy, .medium, .hard {
+    font-size: 25px;
+    padding: 20px;
+    margin: 20px;
+}
+#homeHeader {
+    color: black;
+    text-align: Left;
+    background-color: #e6e6ff;
+    margin: 20px;
+}
+@media screen and (max-width: 599px) {
+    body {
+        background-color: darkBlue;
+   }
+    body h1 {
+        color: white;
+   }
+    div {
+        background-color: #dcdcff;
+        width: 200px;
+        padding: 20px;
+        margin: 20px;
+   }
+}
+@media screen and (min-width: 600px) {
+    body {
+        background-color: #dcdcff;
+   }
+}
+.easy {
+    color: green;
+}
+.medium {
+    color: orange;
+}
+.hard {
+    color: red;
+}
+.imageClass {
+    border: 1px solid black;
+    width: 500px;
+    max-width: 100%;
+    margin: 20px;
+}
+div {
+    background-color: #e6e6ff;
+    width: 200px;
+    padding: 20px;
+    margin: 20px;
+}
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+td, th {
+    border: 1px solid black;
+    padding: 10px;
+}
